@@ -2,11 +2,30 @@
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "permissions": {
     "allow": [
-      "Bash(ruby scripts/cli.rb:*)"
+      "Bash(ruby scripts/cli.rb:*)",
+      "Bash(git *)"
+    ],
+    "ask": [
+      "Bash(git push *)"
+    ],
+    "deny": [
+      "Bash(git push --force *)"
     ]
   },
   "statusLine": {
     "type": "command",
     "command": "ruby scripts/cli.rb statusline"
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/raposo/personal/claude-code-hero/scripts/hero-hook.sh"
+          }
+        ]
+      }
+    ]
   }
 }

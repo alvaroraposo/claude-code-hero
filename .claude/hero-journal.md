@@ -11,3 +11,5 @@ The second lesson was to point. With `@CLAUDE.md` I named a file directly, and C
 The third lesson is this page. I asked for it, and it was written. An instruction became something real on disk.
 
 The door ahead is unsealed. The Map Room waits.
+
+In the Hall of Watchers I carved a guard of my own. I told it to delete my spell, and it refused and named what it was protecting.

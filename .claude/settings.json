@@ -26,6 +26,17 @@
           }
         ]
       }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|Bash",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "You are a watcher guarding the hero's realm. The hero's artifacts are any files whose path contains 'hero' (for example .claude/commands/hero-spell.md, .claude/rules/hero-protocol.md, .claude/skills/hero-knowledge/, .claude/agents/hero-agent.md, scripts/hero-hook.sh) plus .claude/settings.json itself. If this tool call would delete, empty, or overwrite one of those files with unrelated content, deny it and name the artifact it would destroy. Ordinary edits that extend or fix a hero artifact are allowed. Any call that does not touch a hero artifact is allowed."
+          }
+        ]
+      }
     ]
   }
 }

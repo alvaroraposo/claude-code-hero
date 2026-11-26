@@ -11,6 +11,7 @@
 .claude/skills/hero-knowledge/
 .claude/agents/hero-agent.md
 hero-toolkit/
+.mcp.json
 
 # Force-include agent for --agent CLI discovery
 !.claude/

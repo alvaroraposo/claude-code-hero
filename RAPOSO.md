@@ -23,6 +23,11 @@
 -- A CLAUDE.md costs tokens on every single session in the project, so it earns its place only with durable facts: commands that work, conventions that hold, traps already discovered. Transient notes and task lists belong elsewhere. You'll write your own in Level 2 -- the Tome of First Instructions.
 - .claude/
 -- It's where Claude Code looks for everything project-scoped, and you're about to find out exactly what "everything" covers.
+-- .claude/settings.json
+--- $schema: points editors at the official JSON schema for Claude Code settings. Your editor uses it for autocomplete and validation. Claude Code itself ignores it.
+--- permissions.allow -- a list of tool uses that run without asking first. Bash(ruby scripts/cli.rb:*) allows any Bash command that starts with ruby scripts/cli.rb. The :* is a prefix wildcard. This rule is why my status and verify calls never stop to ask you.
+--- statusLine -- runs a shell command and shows its output in the status bar at the bottom of your session. This one asks the game engine for a summary of your quest.
+-- LER HERO-MAP.MD
 - slash commands 
 - permission rules
 - path-scoped rules

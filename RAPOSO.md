@@ -1,0 +1,34 @@
+- claude.md
+-- CLAUDE.md is not documentation for humans. It's a briefing for me (Claude).
+---  Claude Code reads it automatically 
+---  at the start of every session in this project
+---  so whatever is in it becomes standing context.
+-- What the project is. 
+--- the thirteen-quest structure, and the line that explains the whole design:
+--- the plugin teaches you about plugins by being one.
+-- Why it exists
+--- Claude Code's feature surface is deep but onboarding is flat
+---- Deep feature surface: Claude Code isn't just a chat box. Underneath it there are slash commands, skills, hooks that fire on events, subagents that run in parallel, permission rules, path-scoped rules, MCP servers, plugins, workflows. Each one is a genuinely different kind of power.
+---- Flat onboarding: your first hour and your five-hundredth hour look identical. A box at the bottom of the screen. Nothing in the tool ever says you've been doing this a while -- here's a hook. There's no level-up. No gate that opens. You type sentences, you get work done, and the depth sits there unused because nothing ever points at it.
+-- Architecture
+--- where the agent, the level skills, the Ruby engine, and the progress file live
+-- Design Decisions
+--- why verification is programmatic instead of judgmental, why artifacts have specific names, why progress lives on the filesystem
+-- Useful commands
+--- the exact invocations for running, verifying, and cleaning
+-- Hard-won facts
+---  CLI flags, agent frontmatter fields, and the note that ${CLAUDE_PLUGIN_ROOT} does not expand in agent markdown
+-- QA process
+--- how to playtest changes in a tmux pane
+-- A CLAUDE.md costs tokens on every single session in the project, so it earns its place only with durable facts: commands that work, conventions that hold, traps already discovered. Transient notes and task lists belong elsewhere. You'll write your own in Level 2 -- the Tome of First Instructions.
+- .claude/
+-- It's where Claude Code looks for everything project-scoped, and you're about to find out exactly what "everything" covers.
+- slash commands 
+- permission rules
+- path-scoped rules
+- hooks
+- skills
+- agents
+- plugins
+- MCP servers
+- parallel workflows.

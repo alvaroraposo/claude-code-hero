@@ -1,15 +1,20 @@
-# The Hero's Journal
+# Hero's Journal
 
-## Day One: The Threshold
+## Entry One -- The Threshold
 
-I stood at the mouth of the labyrinth today. Thirteen chambers, they say, each guarding a power most who wield Claude Code never find.
+I came to the door expecting a lock. There was a test instead.
 
-The first lesson was simple: speak. I typed a question into the prompt box, asked what this place was, and the dungeon answered. It already knew -- CLAUDE.md is read at the start of every session, a map handed to the guide before I arrived.
+Three things, and none of them were hard: say something, point at something, make
+something. I typed a question into the box and got an answer. Then I typed `@` and
+learned the difference between asking about a file and handing it over -- the first
+is a guess, the second is a fact. This page is the third.
 
-The second lesson was to point. With `@CLAUDE.md` I named a file directly, and Claude read it before answering instead of guessing. I learned the dungeon's design: quest-specific artifacts, verification by script rather than judgment, progress kept in a plain JSON file.
+What I understand now that I did not an hour ago: the tool I have been using is
+deeper than the box at the bottom of the screen. Commands, hooks, rules, agents,
+plugins. All of it has been sitting there the whole time. Nothing ever pointed at
+it, so I never looked.
 
-The third lesson is this page. I asked for it, and it was written. An instruction became something real on disk.
+Thirteen chambers ahead. Something called the Warden is apparently watching. I will
+find out what that means.
 
-The door ahead is unsealed. The Map Room waits.
-
-In the Hall of Watchers I carved a guard of my own. I told it to delete my spell, and it refused and named what it was protecting.
+For now: the threshold is behind me.
